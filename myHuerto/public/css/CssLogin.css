@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+    margin:0;
+}
+
+#fondo { 
+    background-image: url("/img/loghuerto.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+  font-family: '2Toon2-Shadow';
+  color: #46485c;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(255,255,255);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 250px;   
+  padding: 15px 0px;
+  margin: 5px;
+  background: transparent;
+  border: 1px;
+  border-color: black;
+  background-color: rgba(0,0,0,0.1);
+  color: #46485c;
+  font-size: 12px;
+}
+
+input[type="submit"] {
+  font-family: '2Toon2-Shadow';
+  font-size: 20px;
+  background: red;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background: #16aa56;
+
+}
+
+::-webkit-input-placeholder {
+  color: #46485c;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: all 0.2s linear;
+  transform: translate(10px, 0);
+  opacity: 0;
+}
+
+@font-face
+ {
+    font-family: '2Toon2-Shadow';
+    src:url('2Toon2-Shadow.ttf.woff') format('woff'),
+        url('2Toon2-Shadow.ttf.svg#2Toon2-Shadow') format('svg'),
+        url('2Toon2-Shadow.ttf.eot'),
+        url('2Toon2-Shadow.ttf.eot?#iefix') format('embedded-opentype'); 
+
+    font-style: normal;
+}
+
