@@ -1,12 +1,12 @@
-##Prueba usando git
+###Prueba usando git
 
-//Configurando git bash.
+Configurando git bash.
 
 git --global user.email "sihuintaperez@gmail.com"
 
 git --global user.name "Luis"
 
-//
+
 
 git init -> Para inicializar una carpeta de nuestra pc como repositorio
 
