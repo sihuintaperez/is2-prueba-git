@@ -22,8 +22,3 @@ Contiene los archivos sobre la plataforma web My Huerto
 <p>git checkout prueba : Entrar a la rama prueba</p>
 <p>git add .</p>
 <p>git commit -m "Prueba de commit en branch prueba" : Para hacer commit en una rama</p>
-
-# Pasos con Git usando Github
-<p>git remote add origin https://github.com/Brian022/PruebaGit.git</p>
-<p>git push -u master : Para subir los cambios a github en master pedira Iniciar sesión</p>
-<p>git push -u prueba : Para subir los cambios a github en la rama prueba</p>
